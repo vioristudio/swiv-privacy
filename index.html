@@ -1,4 +1,5 @@
 <!doctype html>
+
 <html lang="en">
 <head>
   <meta charset="utf-8">
@@ -74,6 +75,9 @@
       overflow: hidden;
       box-shadow: 0 10px 24px rgba(123, 99, 246, 0.18);
       flex: 0 0 auto;
+      color: var(--accent);
+      font-size: 30px;
+      font-weight: 800;
     }
 
     .brand-mark img {
@@ -81,6 +85,10 @@
       height: 100%;
       object-fit: cover;
       display: block;
+    }
+
+    .brand-mark span {
+      display: none;
     }
 
     .brand-text {
@@ -159,6 +167,7 @@
         width: 50px;
         height: 50px;
         border-radius: 16px;
+        font-size: 26px;
       }
 
       .brand-name {
@@ -170,6 +179,7 @@
       }
     }
   </style>
+
 </head>
 
 <body>
@@ -177,7 +187,8 @@
     <article class="card">
       <div class="brand">
         <div class="brand-mark">
-          <img src="swiv-icon.png" alt="Swiv app icon">
+          <img src="swiv-icon.png" alt="Swiv app icon" onerror="this.style.display='none'; this.nextElementSibling.style.display='block';">
+          <span>S</span>
         </div>
         <div class="brand-text">
           <div class="brand-name">Swiv</div>
@@ -185,294 +196,279 @@
         </div>
       </div>
 
-      <h1>Swiv Privacy Policy</h1>
-      <p class="meta">Effective date: June 12, 2026</p>
+```
+  <h1>Swiv Privacy Policy</h1>
+  <p class="meta">Effective date: June 12, 2026</p>
 
-      <p>
-        Swiv is a personal diary and daily record app provided by Viori Studio.
-        This page explains how Swiv handles information.
-      </p>
+  <p>
+    Swiv is a personal diary and daily record app provided by Viori Studio.
+    This page explains how Swiv handles information.
+  </p>
 
-      <h2>1. Who we are</h2>
-      <p>
-        Swiv is provided by Viori Studio. If you have any questions about this
-        Privacy Policy, you can contact us at
-        <a href="mailto:privacy@swivhome.com">privacy@swivhome.com</a>.
-      </p>
+  <h2>1. Who we are</h2>
+  <p>
+    Swiv is provided by Viori Studio. If you have any questions about this
+    Privacy Policy, you can contact us at
+    <a href="mailto:privacy@swivhome.com">privacy@swivhome.com</a>.
+  </p>
 
-      <h2>2. What Swiv does</h2>
-      <p>
-        Swiv helps users keep personal diary entries, moods, memories, notes,
-        photos, schedules, todos, logs, tags, diary pages, stickers, and other
-        personal daily records.
-      </p>
+  <h2>2. What Swiv does</h2>
+  <p>
+    Swiv helps users keep personal diary entries, moods, memories, notes,
+    daily images, schedules, todos, logs, tags, diary pages, stickers,
+    comments, and other personal daily records.
+  </p>
 
-      <h2>3. Diary content and user records</h2>
-      <p>
-        Swiv may allow users to create and store personal diary content,
-        including but not limited to:
-      </p>
-      <ul>
-        <li>diary text</li>
-        <li>moods</li>
-        <li>weather selections</li>
-        <li>tags</li>
-        <li>memos</li>
-        <li>todos</li>
-        <li>events, schedules, and timetable items</li>
-        <li>logs</li>
-        <li>future letters or comments</li>
-        <li>diary pages</li>
-        <li>photos or images added by the user</li>
-        <li>stickers and page decorations</li>
-        <li>app settings and customization choices</li>
-      </ul>
-      <p>
-        This diary content is stored locally on the user’s device unless the
-        user chooses to export, back up, share, or transfer it using device
-        features or third-party apps.
-      </p>
-      <p>
-        Viori Studio does not operate a server-side diary account system for
-        Swiv. Viori Studio does not receive, store, read, sell, or share users’
-        diary entries, photos, tags, moods, notes, schedules, or other personal
-        diary content through its own servers.
-      </p>
+  <h2>3. Diary content and user records</h2>
+  <p>
+    Swiv may allow users to create and store personal diary content,
+    including but not limited to:
+  </p>
+  <ul>
+    <li>diary text</li>
+    <li>moods</li>
+    <li>weather selections</li>
+    <li>tags</li>
+    <li>memos</li>
+    <li>todos</li>
+    <li>events, schedules, and timetable items</li>
+    <li>logs</li>
+    <li>comments</li>
+    <li>diary pages</li>
+    <li>Today’s Image / Daily Image added by the user</li>
+    <li>stickers and page decorations</li>
+    <li>app settings and customization choices</li>
+  </ul>
+  <p>
+    This diary content is stored locally on the user’s device unless the
+    user chooses to back up, share, or transfer it using device features or
+    third-party apps.
+  </p>
+  <p>
+    Viori Studio does not operate a server-side diary account system for
+    Swiv. Viori Studio does not receive, store, read, sell, or share users’
+    diary entries, images, tags, moods, notes, schedules, or other personal
+    diary content through its own servers.
+  </p>
 
-      <h2>4. Local storage</h2>
-      <p>
-        Swiv may store app data locally on the user’s device to provide normal
-        app functionality. This may include diary records, app settings, theme
-        settings, font settings, purchase or unlock status, backup-related
-        settings, and similar app-use data.
-      </p>
-      <p>
-        Locally stored app data can be removed by clearing the app’s data or
-        uninstalling the app from the device. If the user has created backup or
-        export files, those files may remain wherever the user saved or shared
-        them.
-      </p>
-      <p>
-        Because Viori Studio does not operate a server-side diary account system
-        for Swiv, there is no server-stored diary account data for users to
-        request deletion of.
-      </p>
+  <h2>4. Local storage</h2>
+  <p>
+    Swiv may store app data locally on the user’s device to provide normal
+    app functionality. This may include diary records, daily images, app
+    settings, theme settings, font settings, backup-related settings, and
+    similar app-use data.
+  </p>
+  <p>
+    Locally stored app data can be removed by clearing the app’s data or
+    uninstalling the app from the device. If the user has created backup
+    files, those files may remain wherever the user saved or shared them.
+  </p>
+  <p>
+    Because Viori Studio does not operate a server-side diary account system
+    for Swiv, there is no server-stored diary account data for users to
+    request deletion of.
+  </p>
 
-      <h2>5. Photos, images, and files</h2>
-      <p>
-        Swiv may allow users to add photos or images from their device to diary
-        pages or related diary features.
-      </p>
-      <p>
-        These photos and images are stored locally as part of the app’s diary
-        data. Viori Studio does not receive these photos through its own
-        servers.
-      </p>
-      <p>
-        If the user exports, backs up, shares, or transfers diary content that
-        includes photos or images, the selected destination app, cloud service,
-        file manager, email app, messaging app, printing service, or operating
-        system feature may process those files according to its own policies.
-      </p>
+  <h2>5. Images and files</h2>
+  <p>
+    Swiv may allow users to add a Today’s Image / Daily Image from their
+    device as a representative image for a diary day.
+  </p>
+  <p>
+    These images are stored locally as part of the app’s diary data. Viori
+    Studio does not receive these images through its own servers.
+  </p>
+  <p>
+    If the user backs up, shares, or transfers diary content that includes
+    images, the selected destination app, cloud service, file manager, email
+    app, messaging app, or operating system feature may process those files
+    according to its own policies.
+  </p>
 
-      <h2>6. Backup, restore, and export</h2>
-      <p>
-        Swiv may provide backup, restore, PDF export, image export, or similar
-        file-based features depending on the app version.
-      </p>
-      <p>
-        Backup and export files are created for the user’s own storage,
-        transfer, printing, sharing, or archiving. These files may contain diary
-        text, photos, images, stickers, settings, or other diary-related content
-        selected or included by the export feature.
-      </p>
-      <p>
-        Viori Studio does not automatically receive backup or export files. If
-        the user saves or shares a backup or export file through another app or
-        service, that third-party app or service is responsible for how it
-        handles the file.
-      </p>
-      <p>
-        Users should store backup and export files carefully because they may
-        contain personal diary content.
-      </p>
+  <h2>6. Backup and restore</h2>
+  <p>
+    Swiv may provide backup and restore features depending on the app
+    version.
+  </p>
+  <p>
+    Backup files are created for the user’s own storage or transfer. These
+    files may contain diary text, daily images, stickers, settings, and
+    other diary-related content included by the backup feature.
+  </p>
+  <p>
+    Viori Studio does not automatically receive backup files. If the user
+    saves or shares a backup file through another app or service, that
+    third-party app or service is responsible for how it handles the file.
+  </p>
+  <p>
+    Users should store backup files carefully because they may contain
+    personal diary content.
+  </p>
 
-      <h2>7. Notifications</h2>
-      <p>
-        Swiv may provide local reminders or notifications depending on the app
-        version and user settings.
-      </p>
-      <p>
-        Local notifications are used to provide app functionality on the user’s
-        device. Viori Studio does not use its own server to read, store, or send
-        users’ diary notification content.
-      </p>
-      <p>
-        Users can manage notification permissions through their device settings.
-      </p>
+  <h2>7. Notifications</h2>
+  <p>
+    Swiv may provide local reminders or notifications depending on the app
+    version and user settings.
+  </p>
+  <p>
+    Local notifications are used to provide app functionality on the user’s
+    device. Viori Studio does not use its own server to read, store, or send
+    users’ diary notification content.
+  </p>
+  <p>
+    Users can manage notification permissions through their device settings.
+  </p>
 
-      <h2>8. Purchases and shop</h2>
-      <p>
-        Swiv may offer paid digital items, themes, sticker packs, customization
-        packs, premium features, or similar in-app purchases depending on the
-        app version.
-      </p>
-      <p>
-        If in-app purchases are offered through Google Play, purchase processing
-        is handled by Google Play. Viori Studio does not receive users’ full
-        payment card details or full payment account information.
-      </p>
-      <p>
-        Swiv may receive or store purchase-related information needed to unlock
-        purchased content or features, such as product identifiers, purchase
-        status, entitlement state, or similar purchase confirmation data provided
-        through Google Play Billing.
-      </p>
-      <p>
-        Google’s handling of payment-related information is governed by Google’s
-        own policies and payment terms.
-      </p>
+  <h2>8. Shop and in-app purchases</h2>
+  <p>
+    In the current closed test version, Swiv does not offer active in-app
+    purchases.
+  </p>
+  <p>
+    The Shop area may be shown as a Coming Soon screen, but Swiv does not
+    display prices, purchase buttons, restore purchase buttons, or active
+    payment flows in this test version.
+  </p>
 
-      <h2>9. Advertising and Advertising ID</h2>
-      <p>
-        Swiv does not display ads.
-      </p>
-      <p>
-        Swiv does not use the Google Mobile Ads SDK.
-      </p>
-      <p>
-        Swiv does not collect, access, or use the Android Advertising ID.
-      </p>
-      <p>
-        Swiv does not use advertising networks or personalized advertising.
-      </p>
+  <h2>9. Advertising and Advertising ID</h2>
+  <p>
+    Swiv does not display ads.
+  </p>
+  <p>
+    Swiv does not use the Google Mobile Ads SDK.
+  </p>
+  <p>
+    Swiv does not collect, access, or use the Android Advertising ID.
+  </p>
+  <p>
+    Swiv does not use advertising networks or personalized advertising.
+  </p>
 
-      <h2>10. Accounts and server-side user data</h2>
-      <p>
-        Swiv does not require users to create an account.
-      </p>
-      <p>
-        Swiv does not provide login, account registration, or account-based cloud
-        diary storage.
-      </p>
-      <p>
-        Because Viori Studio does not operate user accounts or store user diary
-        data on its own server, there is no server-side account data for us to
-        delete upon request.
-      </p>
-      <p>
-        Users can delete locally stored app data by clearing the app’s data or
-        uninstalling the app from their device.
-      </p>
+  <h2>10. Accounts and server-side user data</h2>
+  <p>
+    Swiv does not require users to create an account.
+  </p>
+  <p>
+    Swiv does not provide login, account registration, or account-based cloud
+    diary storage.
+  </p>
+  <p>
+    Because Viori Studio does not operate user accounts or store user diary
+    data on its own server, there is no server-side account data for us to
+    delete upon request.
+  </p>
+  <p>
+    Users can delete locally stored app data by clearing the app’s data or
+    uninstalling the app from their device.
+  </p>
 
-      <h2>11. Analytics and diagnostics</h2>
-      <p>
-        Swiv does not use analytics SDKs to track user behavior.
-      </p>
-      <p>
-        Swiv does not use crash reporting SDKs that transmit diagnostic data to
-        Viori Studio or third-party analytics services.
-      </p>
+  <h2>11. Analytics and diagnostics</h2>
+  <p>
+    Swiv does not use analytics SDKs to track user behavior.
+  </p>
+  <p>
+    Swiv does not use third-party crash reporting SDKs that transmit
+    diagnostic data to Viori Studio or third-party analytics services.
+  </p>
 
-      <h2>12. Third-party services</h2>
-      <p>
-        Swiv may use the following third-party services depending on the app
-        version and platform:
-      </p>
-      <ul>
-        <li>Google Play, for app distribution and platform services.</li>
-        <li>Google Play Billing, for processing in-app purchases of digital goods or features if paid items are offered.</li>
-        <li>Android system services, for device permissions, local notifications, file sharing, backup/export destinations, and related platform functionality.</li>
-      </ul>
-      <p>
-        Swiv does not currently use advertising SDKs, analytics SDKs, or
-        third-party crash reporting SDKs.
-      </p>
-      <p>
-        If additional third-party services such as analytics, crash reporting,
-        cloud sync, advertising, or server-based features are added in the
-        future, this Privacy Policy will be updated accordingly.
-      </p>
+  <h2>12. Third-party services</h2>
+  <p>
+    Swiv may use the following third-party services depending on the app
+    version and platform:
+  </p>
+  <ul>
+    <li>Google Play, for app distribution and platform services.</li>
+    <li>Android system services, for device permissions, local notifications, file sharing, backup destinations, and related platform functionality.</li>
+  </ul>
+  <p>
+    Swiv does not currently use advertising SDKs, analytics SDKs,
+    third-party crash reporting SDKs, or active payment processing flows.
+  </p>
+  <p>
+    If additional third-party services such as analytics, crash reporting,
+    cloud sync, advertising, payment processing, or server-based features
+    are added in the future, this Privacy Policy will be updated
+    accordingly.
+  </p>
 
-      <h2>13. Data sharing</h2>
-      <p>
-        Viori Studio does not sell users’ diary content, photos, images, tags,
-        moods, notes, schedules, or personal records.
-      </p>
-      <p>
-        Viori Studio does not share user-entered diary content with third
-        parties through its own servers.
-      </p>
-      <p>
-        Certain information may be processed by platform providers such as
-        Google when users install the app, make purchases, manage app
-        permissions, receive platform-level services, or use Google Play
-        features. Such processing is governed by the relevant third party’s own
-        policies.
-      </p>
-      <p>
-        If users choose to export, back up, send, print, upload, or share their
-        diary files through another app or service, that action is controlled by
-        the user and the selected destination service.
-      </p>
+  <h2>13. Data sharing</h2>
+  <p>
+    Viori Studio does not sell users’ diary content, images, tags, moods,
+    notes, schedules, or personal records.
+  </p>
+  <p>
+    Viori Studio does not share user-entered diary content with third
+    parties through its own servers.
+  </p>
+  <p>
+    Certain information may be processed by platform providers such as
+    Google when users install the app, manage app permissions, receive
+    platform-level services, or use Google Play features. Such processing is
+    governed by the relevant third party’s own policies.
+  </p>
+  <p>
+    If users choose to back up, send, upload, or share their diary files
+    through another app or service, that action is controlled by the user
+    and the selected destination service.
+  </p>
 
-      <h2>14. Data retention and deletion</h2>
-      <p>
-        Swiv diary data remains on the user’s device unless the user deletes it,
-        clears app data, restores or overwrites data, removes backup or export
-        files, or uninstalls the app.
-      </p>
-      <p>
-        Because Viori Studio does not operate a server-side diary account or
-        diary storage system for Swiv, Viori Studio does not retain users’ diary
-        content on its own servers.
-      </p>
-      <p>
-        Users are responsible for managing their own local backups and exported
-        files.
-      </p>
+  <h2>14. Data retention and deletion</h2>
+  <p>
+    Swiv diary data remains on the user’s device unless the user deletes it,
+    clears app data, restores or overwrites data, removes backup files, or
+    uninstalls the app.
+  </p>
+  <p>
+    Because Viori Studio does not operate a server-side diary account or
+    diary storage system for Swiv, Viori Studio does not retain users’ diary
+    content on its own servers.
+  </p>
+  <p>
+    Users are responsible for managing their own local backups.
+  </p>
 
-      <h2>15. Children’s privacy</h2>
-      <p>
-        Swiv is not designed to knowingly collect personal information from
-        children through Viori Studio servers.
-      </p>
-      <p>
-        Because Swiv does not operate user accounts or collect user diary data
-        on Viori Studio servers, Viori Studio does not knowingly collect
-        personal information from children through the app.
-      </p>
+  <h2>15. Children’s privacy</h2>
+  <p>
+    Swiv is not designed to knowingly collect personal information from
+    children through Viori Studio servers.
+  </p>
+  <p>
+    Because Swiv does not operate user accounts or collect user diary data
+    on Viori Studio servers, Viori Studio does not knowingly collect
+    personal information from children through the app.
+  </p>
 
-      <h2>16. Security</h2>
-      <p>
-        Swiv is designed as a local-first diary app. Keeping diary data on the
-        user’s device limits Viori Studio’s own access to personal diary
-        content.
-      </p>
-      <p>
-        However, no method of electronic storage, device storage, backup,
-        export, or transmission is completely secure. Users should protect their
-        device, backups, and exported files carefully, especially because diary
-        content may be personal.
-      </p>
+  <h2>16. Security</h2>
+  <p>
+    Swiv is designed as a local-first diary app. Keeping diary data on the
+    user’s device limits Viori Studio’s own access to personal diary
+    content.
+  </p>
+  <p>
+    However, no method of electronic storage, device storage, backup, or
+    transfer is completely secure. Users should protect their device and
+    backup files carefully, especially because diary content may be personal.
+  </p>
 
-      <h2>17. Changes to this Privacy Policy</h2>
-      <p>
-        We may update this Privacy Policy from time to time. If we make changes,
-        we will update the effective date on this page.
-      </p>
+  <h2>17. Changes to this Privacy Policy</h2>
+  <p>
+    We may update this Privacy Policy from time to time. If we make changes,
+    we will update the effective date on this page.
+  </p>
 
-      <h2>18. Contact</h2>
-      <p>
-        Viori Studio<br>
-        Privacy contact:
-        <a href="mailto:privacy@swivhome.com">privacy@swivhome.com</a>
-      </p>
+  <h2>18. Contact</h2>
+  <p>
+    Viori Studio<br>
+    Privacy contact:
+    <a href="mailto:privacy@swivhome.com">privacy@swivhome.com</a>
+  </p>
 
-      <p class="footer">
-        © 2026 Viori Studio. Swiv is a personal diary and record app by Viori Studio.
-      </p>
-    </article>
+  <p class="footer">
+    © 2026 Viori Studio. Swiv is a personal diary and record app by Viori Studio.
+  </p>
+</article>
+```
+
   </main>
 </body>
 </html>
